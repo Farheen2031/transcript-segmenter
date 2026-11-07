@@ -1,4 +1,6 @@
 import nltk
+nltk.download('stopwords', quiet=True)
+
 from nltk.tokenize import TextTilingTokenizer
 
 def segment_with_texttiling(text):
